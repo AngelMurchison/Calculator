@@ -6,8 +6,6 @@ c:\users\angel murchison\documents\visual studio 2015\Projects\Calculator\Calcul
 c:\users\angel murchison\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.lref
 c:\users\angel murchison\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.exe
 c:\users\angel murchison\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
-c:\users\angel murchison\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\CalculatorApp.exe
-c:\users\angel murchison\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\CalculatorApp.pdb
 c:\users\angel murchison\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\MainWindow.baml
 c:\users\angel murchison\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.g.resources
 c:\users\angel murchison\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
