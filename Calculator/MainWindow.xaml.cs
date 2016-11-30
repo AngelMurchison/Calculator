@@ -20,10 +20,11 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        int memory = 0;
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void additionLogic(object sender, RoutedEventArgs e)
@@ -75,6 +76,23 @@ namespace Calculator
             int.TryParse(input2.Text, out intput2);
             var button = sender as Button;
             Answer.Content = intput1 % intput2;
+        }
+
+        private void addToMemory_Click(object sender, RoutedEventArgs e)
+        {
+            int newMemory = 0;
+            int.TryParse(Answer.Content.ToString(), out newMemory);
+            memory = newMemory;
+        }
+
+        private void memoryRecall_Click(object sender, RoutedEventArgs e)
+        {
+            Answer.Content = memory;
+        }
+
+        private void clearMemory_Click(object sender, RoutedEventArgs e)
+        {
+            memory = 0;
         }
     }
 }
